@@ -1,0 +1,238 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PlushCV - One Page Two Column Resume
+% LaTeX Template
+% Version 2.0 (9/07/2024)
+%
+% Author:
+% Shubham Mazumder (http://shubh.ink)
+%
+% Hacked from:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Fix hacky left alignment on contact line
+% 2. Remove Hacky fix for awkward extra vertical space
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% 1. Used paracol to fix multiple-page flow.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Icons:
+%%Main: https://icons8.com/icons/carbon-copy
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{plushcv}
+\usepackage{paracol}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Alex}{Munger}{Data Analyst}{\contactline{\href{https://github.com/amunger3}{amunger3}}{\href{https://www.github.com/amunger3}{amunger3}}{\href{https://www.linkedin.com/in/alex-munger}{alex-munger}}{\href{mailto:munger.alex@gmail.com}{munger.alex@gmail.com}}{\href{tel:+14045748533}{(404) 574-8533}}}
+
+% \namesection{Firstname}{Lastname}{Full Stack Software Engineer}{\contactline{\href{https://www.mazumder.me}{mazumder.me}}{\href{https://www.github.com/sansquoi}{sansquoi}}{\href{https://www.linkedin.com/mazumders}{mazumders}}{\href{mailto:shubham.mazumder@gmail.com}{first.last@email.com}}{\href{tel:+1999999999}{9999999999}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\columnratio{0.70}
+\begin{paracol}{2}
+
+\switchcolumn[0]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Munger \& Stone, LLP}
+\descript{| Web Developer, Technology Advisor}
+\location{July 2022 - June 2024 | Atlanta, GA}
+\begin{tightemize}
+\item Delivered enhanced data management solutions by strategically planning data storage and ensuring confidentiality.
+\item Utilized SQL for database management and PHP with Laravel for user-friendly interfaces.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{East Ridge High School}
+\descript{| Math Teacher }
+\location{July 2021 - July 2022 | Chattanooga, TN}
+\begin{tightemize}
+\item Taught Algebra II (11\textsuperscript{th} grade) and Analytic Geometry (10\textsuperscript{th} grade).
+\item Enhanced student understanding of Algebra II by implementing data-driven assessments.
+\item Assistant varsity baseball coach.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Freelance}
+\descript{| Private Tutor \& Web Developer }
+\location{August 2017 - July 2021 | Various (GA)}
+\begin{tightemize}
+	\item Tutored undergraduate and high-school students in subjects such as Calculus I, Calculus II, Differential Equations, SAT Math, Algebra II, and College Physics.
+	\item Re-designed CSS and HTML page structure for University of Georgia Department of Academic Enhancement website [dae.uga.edu]
+	\item {Maintained original web services (HTML website) for Munger \& Stone, LLP.}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Cedar Shoals High School}
+\descript{| Math Teacher }
+\location{July 2019 - July 2020 | Athens, GA}
+\begin{tightemize}
+	\item Taught Algebra II (11\textsuperscript{th} grade) and Analytic Geometry (10\textsuperscript{th} grade).
+	\item Enhanced student understanding of Algebra II by implementing data-driven assessments.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Career Simulation - Healthcare Analysis}
+\descript{| Python, SQL, PowerBI}
+\location{2025}
+\begin{tightemize}
+	\item Analyzed star-schema healthcare data structure in SQL, writing queries to select and transform the data.
+	\item  Imported data into Python and analyzed using matplotlib and pandas libraries.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Career Simulation - Grocery Store Sales}
+\descript{| SQL, PowerBI}
+\location{2025}
+\begin{tightemize}
+	\item Analyzed grocery store sales from a relational database in SQL.
+	\item Ran useful SQL queries to import and apply analysis in PowerBI to achieve project deliverables.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Career Simulation - Workplace Fatalities}
+\descript{| PowerBI}
+\location{2025}
+\begin{tightemize}
+\item Assessed workplace injury and fatality data state-by-state to determine compliance and amend safety measures.
+\item Imported flat files representing state and federal workplace safety data into PowerBI.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Awards} 
+% \begin{tabular}{rll}
+% 2020	     & Finalist & Lorem Ipsum\\
+% 2018	     & $2^{nd}$ & Dolor Sit Amet\\
+% 2015	     & Finalist  & Cras posuere\\
+% \\
+% \end{tabular}
+% \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\switchcolumn[1]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\sectionsep
+\location{Proficient:}
+Python \textbullet{} SQL \textbullet{} R \textbullet{} PowerBI \textbullet{} Excel \textbullet{} PHP \textbullet{} CSS \\
+\sectionsep
+\location{Experienced:}
+\LaTeX \textbullet{}  PowerShell \textbullet{}  Bash \\
+\sectionsep
+\location{Familiar:}
+MATLAB \textbullet{} Rust \textbullet{} Go \textbullet{} JavaScript \\
+\sectionsep
+\sectionsep
+\subsection{Tools/Platforms}
+\sectionsep
+Git \textbullet{} Microsoft Azure \textbullet{} Microsoft Fabric \textbullet{} Heroku \textbullet{} Docker \textbullet{} AI Prompting \textbullet{} Machine Learning \\
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{QuickStart}
+\descript{Certificate of Data Analytics}
+\location{May 2025 | Knoxville, TN}
+Certification Program, University of Tennessee, Knoxville \\
+
+\sectionsep
+\subsection{Georgia Tech}
+\descript{Bachelor's of Science in International Affairs and Physics}
+\location{May 2019 | Atlanta, GA}
+\sectionsep
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     REFERENCES
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{References} 
+\href{https://www.linkedin.com/school/east-ridge-high-school-56/}{\textbf{Juan Moreno}, Principal, East Ridge High School}
+\begingroup
+\setbox0=\hbox{
+\includegraphics[scale=0.5,trim={0cm 0.2cm 0cm 0cm}]{icons/main/mail.png}\hspace{0.3cm} moreno\_j@hcde.org
+}
+\parbox{\wd0}{\box0}
+\endgroup
+\begingroup
+\setbox0=\hbox{
+\includegraphics[scale=0.5,trim={0cm 0.2cm 0cm 0cm}]{icons/main/phone-income.png}\hspace{0.3cm}(423) 867-6200 ext. 61502
+}
+\parbox{\wd0}{\box0}\endgroup
+\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Coursework}
+
+% \subsection{Graduate}
+% Graduate Algorithms \textbullet{}\\ 
+% Advanced Computer Architecture \textbullet{}\\ 
+% Operating Systems \textbullet{}\\ 
+% Artificial Intelligence \textbullet{}\\
+% Visualization For Scientific Data \\
+% \sectionsep
+
+% \subsection{Undergraduate}
+
+% Database Management Systems \textbullet{}\\
+% Object Oriented Analysis and Design \textbullet{}\\
+% Artificial Intelligence and Expert Systems \textbullet{}\\
+% Scripting Languages and Web Tech \textbullet{}\\
+% Software Engineering \\
+
+\end{paracol}
+\end{document}  \documentclass[]{article}
+
