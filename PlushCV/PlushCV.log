@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.6)  7 MAY 2025 19:41
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.6)  7 MAY 2025 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -737,7 +737,7 @@ le
 
 LaTeX Font Warning: Font shape `TU/inter-light(0)/b/n' in size <8> not availabl
 e
-(Font)              size <9.5> substituted on input line 200.
+(Font)              size <9.5> substituted on input line 201.
 
 File: icons/main/mail.png Graphic file (type bmp)
 <icons/main/mail.png>
@@ -770,6 +770,6 @@ Here is how much of TeX's memory you used:
  37007 multiletter control sequences out of 15000+600000
  562374 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,11n,130p,414b,830s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,130p,423b,830s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on PlushCV.pdf (1 page).
